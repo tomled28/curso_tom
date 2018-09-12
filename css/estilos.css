@@ -47,27 +47,48 @@ header{
 	border: solid #51BAA4 ;
 	margin:auto;
 }
-.caja0 {
-background:#BDBDBD;
-width: 100%;
-height: 100vh;
-margin-top: 100px;
-}
+#caja0 {
+background: #EEE;
+    display: block;
+    height: 100%;
+    width: auto;
+    opacity: 0.99;
+    position: relative;
+    
 
+
+}
+.primercontenedor{
+	      max-width: 100%;
+    min-width: 100px;
+    display: block;
+    
+    height: auto;
+    
+    position: relative;
+    top: 5%;
+    font-family: arial;
+    color: grey;
+    margin: 10%;
+	
+
+}
 .caja1{
-	background: #FFFFFF;
-	width: 900px;
-	height: 400px;
-	margin: auto;
-	
+	display: inline-block;
+    max-width: 100%;
+    min-width: 200px;
+    max-height: 100%;
+	position: relative;
 }
-.pic01{
-	
-	
-	float: left;
-	margin: auto;
+.caja2 {
+	    height: 100%;
+    display: inline-block;
+    background: white;
+    position: absolute;
+   
+    max-width: 100%;
+    min-width: 200px;
 }
-
 .titulo_1{
 	font-family: helvetica;
 	font-size: 20px;
@@ -90,26 +111,48 @@ margin-top: 100px;
 	border: solid #51BAA4 ;
 	margin:0px 150px 0px 0px;
 }
-.caja2{
-	background: #FFFFFF;
-	width: 900px;
-	height: 400px;
-	margin: 200px;
-	margin-top: 200px;
+.segundocontenedor{
+	max-width: 100%;
+    min-width: 100px;
+    display: block;
+    
+    height: auto;
+    
+    position: relative;
+    top: 15%;
+    font-family: arial;
+    color: grey;
+    margin: 10%;
 }
-.pic02{
-	float: right;
+
+
+.caja3{
+	display: inline-block;
+    max-width: 100%;
+    min-width: 200px;
+    max-height: 100%;
+	position: relative;
 	
 }
+.caja4{
+	height: 100%;
+    display: inline-block;
+    background: white;
+    position: absolute;
+   
+    max-width: 100%;
+    min-width: 200px;
+}
+
 .titulo_2{
 	font-family: helvetica;
 	font-size: 20px;
-	text-align: right;
+	text-align: center;
 }
 .parrafo_2{
 	font-family: helvetica;
 	color:#A9A9F5;
-	text-align: right;
+	text-align: center;
 }
 .boton2{
 	text-decoration: none;
